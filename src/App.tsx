@@ -8,6 +8,7 @@ import { AnimatePresence } from 'framer-motion'
 // Pages
 
 import Home from './Pages/Home'
+import Show from './Pages/Show'
 import ErroPage from './Pages/ErroPage'
 
 import Cullinan from './Pages/Cullinan'
@@ -48,6 +49,7 @@ function App() {
               <Route path='ApresentationSpectre' element={<ApresentationSpectre />} />
               <Route path='DetailSpectre' element={<DetailSpectre />} />
             </Route>
+            <Route path='Show' element={<Show />} />
             <Route path='*' element={<ErroPage />} />
 
           </Routes>

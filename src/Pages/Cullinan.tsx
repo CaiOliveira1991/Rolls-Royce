@@ -9,7 +9,6 @@ import {motion} from 'framer-motion'
 
 import MenuShow from '../Components/NavCullinan'
 
-
 const Cullinan = () => {
   return (
 

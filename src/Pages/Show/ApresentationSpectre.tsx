@@ -18,7 +18,6 @@ import {
     StickyIn,
     Fade,
     FadeIn,
-    MoveIn,
     MoveOut,
     ZoomIn,
   } from 'react-scroll-motion'

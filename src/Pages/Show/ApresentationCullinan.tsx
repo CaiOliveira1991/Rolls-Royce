@@ -152,7 +152,7 @@ const ApresentationCullinan = () => {
 
       <ScrollContainer>
         <ScrollPage >
-          <Animator animation={batch(Sticky(), Fade(), MoveOut(0, -700))}>
+          <Animator animation={batch(Sticky(), Fade(), MoveOut( 0, -700))}>
 
             <FrontCullinan >
 
